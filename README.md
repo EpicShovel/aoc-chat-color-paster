@@ -29,7 +29,7 @@ Pick a color, type your message, press **Enter** — the app writes the markup i
 
 ## Install
 
-1. Download `AoC_Chat_Color_Paster_Setup_1.9.0.exe` from this repository (or from [Releases](https://github.com/EpicShovel/aoc-chat-color-paster/releases)).
+1. Download `AoC_Chat_Color_Paster_Setup_1.10.0.exe` from this repository (or from [Releases](https://github.com/EpicShovel/aoc-chat-color-paster/releases)).
 2. Run the installer.
 3. Pick a color, type, press Enter — then Ctrl+V in game chat.
 
