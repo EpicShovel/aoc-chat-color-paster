@@ -12,6 +12,7 @@ Pick a color, type your message, press **Enter** — the app writes the markup i
 - **Live preview** of your message in the selected color.
 - **Apply color** to the highlighted text (or the whole message); **Clear tags** strips all markup again.
 - Auto-color mode: everything you type is sent in the selected color automatically.
+- **Random-words mode** (new in 1.10.0): every new word automatically gets a random quick-palette color as you type — no Apply needed; the preview shows each word in its own color.
 - Saves single-quoted markup (the way AoC parses it) into the game's **Scripts** folder — auto-detected, or pick it with Browse.
 - The file name **is** the in-game command: `chat.txt` runs as `/chat.txt` in game chat.
 - Copies the `/chat.txt` command to your **clipboard** on save.
