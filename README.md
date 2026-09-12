@@ -41,7 +41,7 @@ Pick a color, type your message, press **Enter** — the app writes the markup i
 The app is built with PyInstaller and signed with a **self-issued** certificate — there is no paid code-signing certificate behind this, so Windows will not recognize the publisher.
 
 - Windows may show a SmartScreen "unknown publisher" prompt on first run. **More info > Run anyway** clears it, and costs one click.
-- The certificate's publisher name shows as **Requiem Nex** (that is the certificate identity; EpicShovel is the product publisher). The **app exe** is signed with it; from 1.11.0 on the **installer is signed too** — 1.10.0's installer went out unsigned.
+- Windows shows the certificate's own signing identity, which is not the EpicShovel product name. The **app exe** is signed with it; from 1.11.0 on the **installer is signed too** — 1.10.0's installer went out unsigned.
 - Because the signature is self-issued, some antivirus engines may still report a generic false positive on a PyInstaller-packed exe.
 - `READ_ME_FIRST.txt` ships with the installer and explains exactly what the optional `Trust-RequiemNex.bat` does before you run it — it adds the certificate to *your* Windows user's trust stores only, needs no admin, and cannot be revoked once trusted. Running it is optional; the one-click SmartScreen route is the zero-trust alternative.
 
